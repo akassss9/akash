@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-image: url(abstract-blue-light-background_SvZPryOnfl_thumb.jpg);
+    background-size: cover;
+}
+.logo img{
+    height: auto;
+    width:450px;
+}
+header{
+    
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    background-color: #333;
+    margin-top: 5px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.menu li{
+    margin:0 1rem;
+    position: relative;
+}
+.menu a{
+    color:#fff;
+    text-decoration: none;
+    transition: color 0.35;
+}
+.menu a:hover{
+    color:#ff9900;
+}
+.submenu-content{
+    display:none;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    z-index: 1;
+}
+.submenu:hover .submenu-content{
+    display: block;
+}
+.con p{
+    text-align: center;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin:10px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    
+}
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
